@@ -49,6 +49,41 @@ Lopuksi suoritin ensin 'git pull' -komennon, jotta tiedostoni ovat varmasti ajan
 
 ![Kuva3](./pictures/h3_pic3.png) 
 
+Kokonaisuudessaan git -komennot menivät siis seuraavassa järjestyksessä:
+
+```
+git add *
+git commit -m "message"
+git pull
+git push
+```
+
+## c) Kaikki kirjataan. Näytä omalla git-varastollasi esimerkit komennoista ‘git log’, ‘git diff’ ja ‘git blame’. Selitä tulokset. 
+
+
+Ensimmäisenä käydään läpi 'git log':
+
+![Kuva4](./pictures/h3_pic4.png)
+
+Kuvassa on kolme eri aikaan suoritettua committia. Jokaisella on oma pitkä uniikki id. Toisella rivillä löytyy commitin author eli kuka on tehnyt kyseisen muutoksen. Kolmannelta riviltä löytyy päivämäärä, aika, vuosi ja aikavyöhyke tehdylle muutokselle. Viimeisenä jokaiselle commitille on annettu viesti, jossa kuvataan lyhyesti imperatiivissa tehty muutos. 
+
+Seuraavaksi on vuorossa 'git diff':
+
+![Kuva5](./pictures/h3:pic5.png)
+
+Kuvassa on alku komennon tuloksesta sillä se oli hieman liian pitkä tuloste laittaa yhdeksi kuvaksi kokonaan. Tästä kuitenkin nähdään komennon tarkoitus eli se siis listaa eron lokaalin ja kloonatun version välillä repossa. Tässä tapauksessa olen tehnyt muutoksia tähän .md tiedostoon, jotka se listaa lisäyksinä '+' merkein. Jos jotain olisikin poistettu esimerkiksi tiedostosta niin sitä indikoitaisiin '-' merkein.
+
+Kolmantena ja viimeisenä tehtävän komentona on 'git blame':
+
+![Kuva6](./pictures/h3:pic6.png)
+
+Kyseinen komento vaatii attribuutiksi tarkasteltavan tiedoston tai hakemiston. Valitsin tässä tapauksessa tämän tehtävätiedoston. Tuloksena on rivi riviltä tiedoston läpikäynti. Jokaisella rivillä on oma lyhennetty commit id, eli minkä commitin yhteydessä rivi luotiin. ID:n jälkeen tulee rivin luoja, aika, päivämäärä ja aikavyöhyke sekä rivin sisältö. Tällä komennolla on siis nimensä mukaan helpompi "syyttää" muutoksen tekijää eli siis tosiasiassa ohjeistaa häntä tekemään jatkossa paremmin.
+
+
+## d) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
+
+
+Päätin tätä tehtävää varten poistaa kokonaan kuvakansioni lokaalisti, jotta muutos olisi helppo todentaa.
 ## Lähteet:
 
 CommonMark Help Page: Commonmark contributors: Markdown Reference. https://commonmark.org/help/
