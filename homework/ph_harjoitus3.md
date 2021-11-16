@@ -30,11 +30,19 @@ Kun repo oli kloonattu, navigoin sen hakemistoon ja loin sinne uuden "homework" 
 ## b) Pull first. Tee useita muutoksia git-varastoosi. Tee muutama muutos, jossa yksi commit koskee useampaa tiedostoa. Anna hyvä kuvaukset (commit message), yksi englanninkielinen lause imperatiivissa (määräysmuodossa) "Add top level menu to Foobar synchronizer"
 
 
+Tässä tehtävässä loin uuden kansion nimeltä "pictures", jonne aion tallettaa kuvankaappaukset tätä tehtävää varten. Kuvankaappauksia varten asensin iamgemagick nimisen työkalun.
 
+```
+mkdir pictures
+sudo apt-get -y install imagemagick
+```
 
+Seuraavaksi loin työkalulla kuvankaappauksen työpöydästä ja tallensin sen pictures kansioon. Lisäsin kuvan myös tähän, jolla sain useamman muutoksen gittiin.
+
+![Kuva1](./pictures/h3_pic1.png)
 
 ## Lähteet:
 
-CommonMark Help Page: [Commonmark contributors: Markdown Reference](https://commonmark.org/help/)
+CommonMark Help Page: Commonmark contributors: Markdown Reference. https://commonmark.org/help/
 
-Roger Dudler, 2015: git - the simple guide.[1](https://rogerdudler.github.io/git-guide/)
+Roger Dudler, 2015: git - the simple guide. https://rogerdudler.github.io/git-guide/
