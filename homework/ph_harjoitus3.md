@@ -37,9 +37,17 @@ mkdir pictures
 sudo apt-get -y install imagemagick
 ```
 
-Seuraavaksi loin työkalulla kuvankaappauksen työpöydästä ja tallensin sen pictures kansioon. Lisäsin kuvan myös tähän, jolla sain useamman muutoksen gittiin.
+Seuraavaksi loin työkalulla kuvankaappauksen komentoikkunasta ja tallensin sen pictures kansioon. Lisäsin kuvan myös tähän, jolla sain useamman muutoksen gittiin.
 
 ![Kuva1](./pictures/h3_pic1.png)
+
+Sitten lisäsin kaikki tekemäni muutokset lokaalisti ja committasin ne HEADiin kuvaavalla ja simppelillä viestillä.
+
+![Kuva2](./pictures/h3_pic2.png)
+
+Lopuksi suoritin ensin 'git pull' -komennon, jotta tiedostoni ovat varmasti ajantasalla ennen omien muutoksien pushaamista. Komento suoriutui ja ilmoitti, että olen ajantasalla, jonka jälkeen pystyin turvallisin mielin siirtyä 'git push' -komentoon. Kaikki suoriutui ilman virheitä.
+
+![Kuva3](./pictures/h3_pic3.png) 
 
 ## Lähteet:
 
