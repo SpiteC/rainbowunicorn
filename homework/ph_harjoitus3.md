@@ -69,13 +69,13 @@ Kuvassa on kolme eri aikaan suoritettua committia. Jokaisella on oma pitkä unii
 
 Seuraavaksi on vuorossa 'git diff':
 
-![Kuva5](./pictures/h3:pic5.png)
+![Kuva5](./pictures/h3_pic5.png)
 
 Kuvassa on alku komennon tuloksesta sillä se oli hieman liian pitkä tuloste laittaa yhdeksi kuvaksi kokonaan. Tästä kuitenkin nähdään komennon tarkoitus eli se siis listaa eron lokaalin ja kloonatun version välillä repossa. Tässä tapauksessa olen tehnyt muutoksia tähän .md tiedostoon, jotka se listaa lisäyksinä '+' merkein. Jos jotain olisikin poistettu esimerkiksi tiedostosta niin sitä indikoitaisiin '-' merkein.
 
 Kolmantena ja viimeisenä tehtävän komentona on 'git blame':
 
-![Kuva6](./pictures/h3:pic6.png)
+![Kuva6](./pictures/h3_pic6.png)
 
 Kyseinen komento vaatii attribuutiksi tarkasteltavan tiedoston tai hakemiston. Valitsin tässä tapauksessa tämän tehtävätiedoston. Tuloksena on rivi riviltä tiedoston läpikäynti. Jokaisella rivillä on oma lyhennetty commit id, eli minkä commitin yhteydessä rivi luotiin. ID:n jälkeen tulee rivin luoja, aika, päivämäärä ja aikavyöhyke sekä rivin sisältö. Tällä komennolla on siis nimensä mukaan helpompi "syyttää" muutoksen tekijää eli siis tosiasiassa ohjeistaa häntä tekemään jatkossa paremmin.
 
