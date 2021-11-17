@@ -95,9 +95,7 @@ Kuvassa nähdään kuinka hakemiston poisto onnistui eikä sitä löytynyt enä�
 ## e) Formula
 
 
-En valitettavasti tästä tehtävästä oikein ymmärtänyt mikä on päätavoita, muuta kuin että olisi tarkoitus tehdä uusi tilafunktio saltille, joita harjoittelimme jo edellisessä tehtävässä. Tehtävä siis tuntui liian simppeliltä. Tein kuitenkin niin kuin käskettiin.
-
-Lähtiessäni tutkimaan asiaa tarkemmin, löysin kuitenkin, että kyseessä on uusi toiminto jota emme olleet vielä käyttäneet joten aloitin formula repon lisäyksestä ohjeen mukaan.
+En aluksi tästä tehtävästä oikein ymmärtänyt mikä on päätavoite, muuta kuin että olisi tarkoitus tehdä uusi tilafunktio saltille, joita harjoittelimme jo edellisessä tehtävässä. Tehtävä siis tuntui liian simppeliltä. Lähtiessäni tutkimaan asiaa tarkemmin, löysin kuitenkin, että kyseessä on uusi toiminto jota emme olleet vielä käyttäneet, joten aloitin formula repon lisäyksestä lähteen ohjeen mukaan. ([Lähde](https://docs.saltproject.io/en/latest/topics/development/conventions/formulas.html))
 
 ![Kuva8](./pictures/h3_pic8.png)
 
