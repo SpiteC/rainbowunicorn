@@ -107,7 +107,7 @@ Tämän jälkeen käytin formulaa luomassani simppelissä tilafunktiotiedostossa
 
 ![Kuva9](./pictures/h3_pic9.png)
 
-Kuvasta huomataan että 12 muutosta tehtiin, jotka olivat apache formulan erinäisiä asennuksia. Kaksi pileen mennyttä johtuivat, kun olin nimennyt 'require' kentän paketin väärin ja en ollut antanut 'testifilu.txt' tiedostolle absoluuttista tiedostopolkua. Nämä korjautuivat pienillä muutoksilla, jotka löytyivät jo yllä olevasta tilafunktion kuvasta.
+Kuvasta huomataan että 12 muutosta tehtiin, jotka olivat apache formulan erinäisiä asennuksia. Kaksi pieleen mennyttä johtuivat, kun olin nimennyt 'require' kentän paketin väärin ja en ollut antanut 'testifilu.txt' tiedostolle absoluuttista tiedostopolkua. Nämä korjautuivat pienillä muutoksilla, jotka löytyivät jo yllä olevasta tilafunktion kuvasta.
 
 
 ## Lähteet:
