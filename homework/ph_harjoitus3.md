@@ -103,7 +103,7 @@ Ensiksi luotiin uusi hakemisto formuloille. Sitten navigoitiin luotuun hakemisto
 
 Tämän jälkeen käytin formulaa luomassani simppelissä tilafunktiotiedostossani ja ajoin sen minionilla:
 
-![Kuva10](/pictures/h3_pic10.png)
+![Kuva10](./pictures/h3_pic10.png)
 
 ![Kuva9](./pictures/h3_pic9.png)
 
