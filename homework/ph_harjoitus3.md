@@ -71,7 +71,7 @@ Seuraavaksi on vuorossa 'git diff':
 
 ![Kuva5](./pictures/h3_pic5.png)
 
-Kuvassa on alku komennon tuloksesta sillä se oli hieman liian pitkä tuloste laittaa yhdeksi kuvaksi kokonaan. Tästä kuitenkin nähdään komennon tarkoitus eli se siis listaa eron lokaalin ja kloonatun version välillä repossa. Tässä tapauksessa olen tehnyt muutoksia tähän .md tiedostoon, jotka se listaa lisäyksinä '+' merkein. Jos jotain olisikin poistettu esimerkiksi tiedostosta niin sitä indikoitaisiin '-' merkein.
+Kuvassa on alku komennon tuloksesta sillä se oli hieman liian pitkä tuloste laittaa yhdeksi kuvaksi kokonaan. Tästä kuitenkin nähdään komennon tarkoitus eli se siis listaa eron lokaalin ja githubissa olevan version välillä. Tässä tapauksessa olen tehnyt muutoksia tähän .md tiedostoon, jotka se listaa lisäyksinä '+' merkein. Jos jotain olisikin poistettu esimerkiksi tiedostosta niin sitä indikoitaisiin '-' merkein.
 
 Kolmantena ja viimeisenä tehtävän komentona on 'git blame':
 
@@ -83,9 +83,39 @@ Kyseinen komento vaatii attribuutiksi tarkasteltavan tiedoston tai hakemiston. V
 ## d) Huppis! Tee tyhmä muutos gittiin, älä tee commit:tia. Tuhoa huonot muutokset ‘git reset --hard’. Huomaa, että tässä toiminnossa ei ole peruutusnappia.
 
 
-Päätin tätä tehtävää varten poistaa kokonaan kuvakansioni lokaalisti, jotta muutos olisi helppo todentaa.
+Päätin tätä tehtävää varten poistaa kokonaan kuvakansioni lokaalisti, jotta muutos olisi helppo todentaa. Hakemiston poisto onnistui komennolla:
+
+`rm -r pictures/`
+
+![Kuva7](./pictures/h3_pic7.png)
+
+Kuvassa nähdään kuinka hakemiston poisto onnistui eikä sitä löytynyt enää hakemistopuustani. Tämän jälkeen käytin komentoa 'git reset --hard' eli pakotin repon menemään takaisin netistä löytyvään viimeisimpään versioon. Kuvat löytyivät taas kansiostaan, hurraa!
+
+
+## e) Formula
+
+
+En valitettavasti tästä tehtävästä oikein ymmärtänyt mikä on päätavoita, muuta kuin että olisi tarkoitus tehdä uusi tilafunktio saltille, joita harjoittelimme jo edellisessä tehtävässä. Tehtävä siis tuntui liian simppeliltä. Tein kuitenkin niin kuin käskettiin.
+
+Lähtiessäni tutkimaan asiaa tarkemmin, löysin kuitenkin, että kyseessä on uusi toiminto jota emme olleet vielä käyttäneet joten aloitin formula repon lisäyksestä ohjeen mukaan.
+
+![Kuva8](./pictures/h3_pic8.png)
+
+Ensiksi luotiin uusi hakemisto formuloille. Sitten navigoitiin luotuun hakemistoon ja kloonattiin valmis repo, josta löytyi formula apachen konfigurointia varten. Lopuksi polku formula hakemistoon lisättiin masterin konfigurointitiedostoon.
+
+Tämän jälkeen käytin formulaa luomassani simppelissä tilafunktiotiedostossani ja ajoin sen minionilla:
+
+![Kuva10](/pictures/h3_pic10.png)
+
+![Kuva9](./pictures/h3_pic9.png)
+
+Kuvasta huomataan että 12 muutosta tehtiin, jotka olivat apache formulan erinäisiä asennuksia. Kaksi pileen mennyttä johtuivat, kun olin nimennyt 'require' kentän paketin väärin ja en ollut antanut 'testifilu.txt' tiedostolle absoluuttista tiedostopolkua. Nämä korjautuivat pienillä muutoksilla, jotka löytyivät jo yllä olevasta tilafunktion kuvasta.
+
+
 ## Lähteet:
 
 CommonMark Help Page: Commonmark contributors: Markdown Reference. https://commonmark.org/help/
 
 Roger Dudler, 2015: git - the simple guide. https://rogerdudler.github.io/git-guide/
+
+SaltStack Documentation: Salt Formulas. https://docs.saltproject.io/en/latest/topics/development/conventions/formulas.html
